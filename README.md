@@ -47,9 +47,9 @@ Make sure the AWS CLI is configured and your user/role has these IAM permissions
 
 
 **🤝 Contribute**
+   ```bash
 - `Found an issue or want to add a feature?`
 - `Pull requests are welcome!`
-
 - `Let me know if you'd like to add:`
 - `- A badge (e.g. Bash, AWS Certified)`
 - `- GitHub Actions status`
