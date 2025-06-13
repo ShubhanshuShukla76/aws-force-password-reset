@@ -25,22 +25,20 @@ Make sure the AWS CLI is configured and your user/role has these IAM permissions
 
 2. ## Make the script executable
    ```bash
-**chmod +x force_password_reset.sh**
+    chmod +x force_password_reset.sh
 
 3. ## Run the script
    ```bash
-**./force_password_reset.sh**
+    ./force_password_reset.sh
 
 
 **✅ What It Does**
-   ```bash
 - `🔍 Lists all IAM users in the account`
 - `👤 Checks if each user has console login access (i.e., login profile exists)`
 - `🔁 If yes, enforces password reset using --password-reset-required`
-- `⏭ Skips service accounts or users without console access automatically`
+- `⏭ Skips service accounts or users without console access automatically
 
 **📌 Notes**
-   ```bash
 - `This script only affects human users with console access`
 - `Ideal for enforcing password policies like 45-day expiry`
 - `Can be scheduled or extended for automated compliance`
@@ -50,7 +48,6 @@ Make sure the AWS CLI is configured and your user/role has these IAM permissions
 
 
 **🤝 Contribute**
-   ```bash
 - `Found an issue or want to add a feature?`
 - `Pull requests are welcome!`
 
