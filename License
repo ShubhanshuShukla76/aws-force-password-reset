@@ -1,0 +1,10 @@
+
+---
+
+### 📄 3. `.gitignore` (optional)
+
+```gitignore
+*.log
+*.csv
+.DS_Store
+
