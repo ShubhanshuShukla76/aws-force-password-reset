@@ -23,29 +23,29 @@ git clone https://github.com/yourusername/aws-force-password-reset.git
 cd aws-force-password-reset
 
 
-**## 2. Make the script executable**
+##  2. Make the script executable
 chmod +x force_password_reset.sh
 
-**3. Run the script**
+3. Run the script
 ./force_password_reset.sh
 
 
-**✅ What It Does**
+✅ What It Does
 🔍 Lists all IAM users in the account
 👤 Checks if each user has console login access (i.e., login profile exists)
 🔁 If yes, enforces password reset using --password-reset-required
 ⏭ Skips service accounts or users without console access automatically
 
-**📌 Notes**
+📌 Notes
 This script only affects human users with console access
 Ideal for enforcing password policies like 45-day expiry
 Can be scheduled or extended for automated compliance
 
-**📄 License**
+📄 License
 This project is licensed under the MIT License — see the [LICENSE](LICENSE) file for details.
 
 
-**🤝 Contribute**
+🤝 Contribute
 Found an issue or want to add a feature?
 Pull requests are welcome!
 
