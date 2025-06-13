@@ -31,12 +31,11 @@ Make sure the AWS CLI is configured and your user/role has these IAM permissions
    ```bash
     ./force_password_reset.sh
 
-
 **✅ What It Does**
 - `🔍 Lists all IAM users in the account`
 - `👤 Checks if each user has console login access (i.e., login profile exists)`
 - `🔁 If yes, enforces password reset using --password-reset-required`
-- `⏭ Skips service accounts or users without console access automatically
+- `⏭ Skips service accounts or users without console access automatically`
 
 **📌 Notes**
 - `This script only affects human users with console access`
@@ -55,7 +54,6 @@ Make sure the AWS CLI is configured and your user/role has these IAM permissions
 - `- A badge (e.g. Bash, AWS Certified)`
 - `- GitHub Actions status`
 - `- CSV output/log support documented`
-
 - `I can help polish the whole repo presentation.`
 
 
