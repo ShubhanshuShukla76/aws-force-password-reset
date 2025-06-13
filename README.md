@@ -23,11 +23,11 @@ Make sure the AWS CLI is configured and your user/role has these IAM permissions
    cd aws-force-password-reset
 
 
-2. ## Make the script executable**
-chmod +x force_password_reset.sh
+2. ## Make the script executable
+  **chmod +x force_password_reset.sh**
 
-3. ## Run the script**
-./force_password_reset.sh
+3. ## Run the script
+   **./force_password_reset.sh**
 
 
 **✅ What It Does**
